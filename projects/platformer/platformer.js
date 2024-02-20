@@ -50,7 +50,7 @@ $(function () {
 
     createPlatform(750, 500, 30, 20);
 
-    createPlatform(900, 370, 30, 20);
+    createPlatform(900, 300, 30, 20);
 
     createPlatform(1180, 270, 10, 10);
 
@@ -64,7 +64,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
-    createCollectable("steve", 40, 370, 0.0000000001, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
+    createCollectable("steve", 30, 500, 0.0000000001, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
 
     createCollectable("diamond", 1040, 200, 0.01,);
 
@@ -80,8 +80,10 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-    createCannon("left", 400, 1200); // cannon on left wall, 600px down, shooting once per second
+    createCannon("left", 350, 1300); // cannon on left wall, 600px down, shooting once per second
+    
     createCannon("right", 200, 700); // cannon on left wall, 600px down, shooting once per second
+    
     createCannon("top", 900, 1200); // cannon on left wall, 600px down, shooting once per second
 
     /////////////////////////////////////////////////
