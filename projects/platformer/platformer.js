@@ -28,10 +28,10 @@ $(function () {
      * Comment the lines out to remove the grid
      */
 
-    // for (let i = 100; i < canvas.width; i += 100) {
+    // for (let i = 100; i <canvas.width; i += 100) {
     //   createPlatform(i, canvas.height, -1, -canvas.height);
     // }
-    // for (let i = 100; i < canvas.height; i += 100) {
+    // for (let i = 100; i <canvas.height; i += 100) {
     //   createPlatform(canvas.width, i, -canvas.width, -1);
     // }
 
@@ -64,7 +64,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
-    createCollectable("steve", 30, 500, 0.0000000001, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
+    createCollectable("steve", 40, 450, 0.0000000001, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
 
     createCollectable("diamond", 1040, 200, 0.01,);
 
@@ -85,9 +85,9 @@ $(function () {
     createCannon("right", 200, 700); // cannon on left wall, 600px down, shooting once per second
     
     createCannon("top", 900, 1200); // cannon on left wall, 600px down, shooting once per second
+   
 
-    /////////////////////////////////////////////////
-    //////////ONLY CHANGE ABOVE THIS POINT///////////
+   //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
   }
 
